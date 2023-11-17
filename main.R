@@ -64,10 +64,14 @@ validation$gbm<-gbm_P
 validation$cforest<-cforest_P
 validation$ranger<-ranger_P
 
-cor(validation$YSB,validation$knn)
-cor(validation$YSB,validation$svm)
-cor(validation$YSB,validation$rf)
-cor(validation$YSB,validation$gbm)
-cor(validation$YSB,validation$cforest)
-cor(validation$YSB,validation$ranger)
+cor(validation$Y,validation$knn)
+cor(validation$Y,validation$svm)
+cor(validation$Y,validation$rf)
+cor(validation$Y,validation$gbm)
+cor(validation$Y,validation$cforest)
+cor(validation$Y,validation$ranger)
 
+
+
+
+####################################
